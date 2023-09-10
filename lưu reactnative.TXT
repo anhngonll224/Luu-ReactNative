@@ -1,0 +1,24 @@
+<div>: Thay thế bằng <View>: Đây là thành phần chính để tạo ra các container trong React Native.
+
+<span>: Thay thế bằng <Text>: Được sử dụng để hiển thị văn bản. Tương tự như <span>, nhưng cho môi trường di động.
+
+<img>: Thay thế bằng <Image>: Được sử dụng để hiển thị hình ảnh. Để sử dụng, bạn cần import Image từ react-native và cung cấp đường dẫn đến hình ảnh.
+
+<button>: Thay thế bằng <Button> từ react-native hoặc các thành phần tùy chỉnh. <Button> trong React Native không hỗ trợ một số thuộc tính như HTML <button>.
+
+<input>: Thay thế bằng các thành phần nhập liệu như <TextInput> từ react-native.
+
+<a> (link): Thay thế bằng <Text> hoặc các thành phần khác kết hợp với xử lý sự kiện để tạo các liên kết giả trong ứng dụng.
+
+<ul> và <li> (danh sách không sắp xếp): Thay thế bằng các thành phần <View> và <Text> để tạo danh sách.
+
+<ol> và <li> (danh sách có sắp xếp): Tương tự như danh sách không sắp xếp, nhưng bạn cần quản lý số thứ tự bằng tay.
+
+<table>, <tr>, <td>: React Native không cung cấp các thành phần tương tự cho bảng. Bạn cần tự tạo giao diện bảng bằng cách sử dụng các thành phần khác như <View> và <Text> và quản lý bố cục bằng cách căn chỉnh.
+Debugging: Sử dụng công cụ debug như console.log, console.warn, và React Native Debugger để kiểm tra lỗi và gỡ rối.
+
+Performance Optimization: React Native có những quy ước riêng để tối ưu hiệu suất, ví dụ như việc tránh sử dụng lặp map trong render hoặc sử dụng PureComponent.
+
+Animations: React Native cung cấp các thư viện để tạo các hiệu ứng và hoạt ảnh, như Animated và react-native-reanimated.
+
+Device APIs: Sử dụng các API của thiết bị như Camera, Geolocation, AsyncStorage, Permissions, và nhiều thứ khác thông qua thư viện react-native hoặc các thư viện bên ngoài.
